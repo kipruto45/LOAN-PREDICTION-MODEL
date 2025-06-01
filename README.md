@@ -1,7 +1,8 @@
 
 🏦 Loan Prediction Model
 
-This project implements a Loan Prediction Model that uses machine learning techniques to predict the likelihood of a loan being approved based on applicant details. It aims to assist banks and financial institutions in automating the loan eligibility process
+This project implements a Loan Prediction Model that uses machine learning techniques to predict the likelihood of a loan being approved based on applicant details. It aims to assist banks and financial institutions in automating the loan eligibility process.
+
 📌 Features
 
 Predicts loan approval (Yes/No) based on user input
@@ -13,10 +14,6 @@ Preprocessing pipeline for handling missing values and categorical variables
 Supports logistic regression, decision tree, and random forest models
 
 Web interface for user input (optional)
-
-
-
----
 
 📁 Project Structure
 
@@ -44,7 +41,7 @@ loan-prediction/
 
 1. Clone the repo:
 
-git clone https://github.com/your-username/loan-prediction.git
+git clonehttps://github.com/kipruto45/LOAN-PREDICTION-MODEL/git.
 cd loan-prediction
 
 
@@ -57,11 +54,6 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 3. Install dependencies:
 
 pip install -r requirements.txt
-
-
-
-
----
 
 🚀 Usage
 
@@ -97,9 +89,6 @@ sample_input = {
 result = predict_loan_status(sample_input)
 print("Prediction:", result)
 
-
----
-
 📊 Dataset
 
 Source: Loan Prediction Dataset - Analytics Vidhya
@@ -113,12 +102,6 @@ ApplicantIncome, CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History
 Property_Area
 
 Target: Loan_Status (Y/N)
-
-
-
-
----
-
 🧠 Model Performance
 
 Accuracy: ~80% on validation set
@@ -127,9 +110,6 @@ Cross-validation used for model selection and tuning
 
 Evaluation metrics: Accuracy, Precision, Recall, F1-score
 
-
-
----
 
 🛠 Tech Stack
 
@@ -143,23 +123,10 @@ Streamlit / Flask (for app)
 
 Joblib / Pickle for model serialization
 
-
-
----
-
 📝 License
 
 This project is open-source under the MIT License.
-
-
----
-
 🙋‍♂️ Contact
 
-For questions or suggestions, please open an issue or contact [your-email@example.com].
-
-
----
-
-Would you like a version of this README with badges, screenshots, or deployment instructions (e.g., on Heroku, AWS, or Hugging Face)?
+For questions or suggestions, please open an issue or contact ropellroe@gmail.com
 
